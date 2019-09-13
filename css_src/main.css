@@ -1,0 +1,89 @@
+#content {
+    background-image: linear-gradient( #24d9bb, #249dd9 );
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #373737;
+    font-weight: 100;
+}
+
+#window {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    min-height: 450px;
+    min-width: 740px;
+    margin-top: 42px;
+    display: table;
+}
+
+#photo, #video {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width: 100%;
+    height: auto;
+}
+
+#canvas, #photo_output {
+    display: none;
+}
+
+.output {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+#startbutton, #gotocamera {
+    display: block;
+    position: relative;
+    bottom: -5px;
+}
+
+#share {
+    float: left;
+}
+
+#main, #menu {
+    float: left;
+    margin: auto;
+}
+
+#main {
+    width: 70%;
+    min-width: 400px;
+    max-width: 520px;
+    height: fit-content;
+}
+
+#menu {
+    width: 220px;
+}
+
+div.div_mask {
+    display: inline;
+    padding: 15px;
+}
+
+img.mask {
+    width: 75px;
+}
+
+#gallery {
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.gallery_photo {
+    width: 20%;
+    margin: 3px;
+    display: inline;
+}
+
+#file_form {
+    float: left;
+    margin-top: 3px;
+}
